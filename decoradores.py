@@ -1,6 +1,5 @@
 from datetime import datetime
-import pandas as pd
-from pandas.io.formats.format import Datetime64TZFormatter #no tengo pandas instalado en este venv)
+import pandas as pd #no tengo pandas instalado en este venv)
 
 def excecution_time(func):  
     def wrapper(*args, **kwargs):
